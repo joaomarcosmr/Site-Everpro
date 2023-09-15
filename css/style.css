@@ -1,0 +1,88 @@
+body{
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+i{
+    font-size: 30px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.linkList{
+    color: white;
+    text-decoration: none;
+    padding-left: 4px;
+}
+
+/* NAVBAR */
+
+#headerNav{
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+#navbar-main{
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+#navbar-logo{
+    cursor: pointer;
+    width: 200px;
+    justify-self: right;
+}
+
+#navbarSupportedContent {
+    background-color: rgba(248,249,250);
+}
+
+/* first content */
+
+#row1{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 550px;
+}
+
+#container-main-content{
+    margin-top: 100px;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+
+#grid-info-text{
+    display: flex;
+    align-items: center;
+}
+
+#grid-image{
+    background-image: url(/img/porto-itajai.png);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.main-info{
+    margin: 30px;
+}
+
+#image-banner1{
+    width: 100%;
+}
+
+/* footer content */
+
+#row-footer{
+    background-color: rgb(59, 59, 59);
+    height: 300px;
+}
+
+.col-2-right{
+    border: 1px solid red;
+}
+
+.col-2{
+    color: rgb(221, 221, 221);
+}
+
+#logo-footer{
+    width: 150px;
+}

@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+    /*navbar*/
+
+    #navbarSupportedContent{
+        margin-top: -17px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+        border-right: 1px solid rgba(0, 0, 0, 0.151);
+        border-left: 1px solid rgba(0, 0, 0, 0.151);
+        padding: 15px;
+    }
+
+    .nav-link:hover{
+        transition: 1s;
+        background-color: #66666618;
+        padding-left: 5px;
+    }
+
+    /*content*/
+
+    #row1{
+        height: 700px;
+    }
+
+    #grid-info-text{
+        height: 350px;
+    }
+
+    #grid-image{
+        height: 350px;
+    }
+}

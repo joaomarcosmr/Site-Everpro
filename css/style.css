@@ -54,7 +54,7 @@ i{
 }
 
 #grid-image{
-    background-image: url(/img/porto-itajai.png);
+    background-image: url(img/porto-itajai.png);
     background-position: center;
     background-size: cover;
     max-width: 100%;
